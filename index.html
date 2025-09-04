@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Nav Bar-->
+    <nav>
+        <div class="left">
+            <a href="/">Nikhil Peri</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:nikhil@example.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!--Section 1: Intro-->
+        <section class="intro">
+            <div class="text">
+                <h2 id="intro"></h2>
+                <p>Hi, I’m Nikhil Peri, a Full Stack Software Developer with experience in building modern, scalable, and user-friendly applications. I enjoy working across the stack with technologies like Java, React, Spring Boot, and AWS, and I recently completed my Master’s in Information Systems at George Mason University. I love creating clean and responsive web applications, exploring cloud solutions, and collaborating with teams to bring ideas to life. Some of my projects include developing a serverless file transfer solution on AWS and building interactive portals with React and TypeScript. I’m always curious to learn, experiment, and share knowledge through meaningful work.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+
+                </div> 
+            </div>
+            <div class="headshot">
+                <img src="images/NikhilP.webp" alt="my-headshot">
+            </div>
+        </section>
+
+        <!--Section 2: Skills-->
+        <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="cells">
+            <div class="cell">
+                <img src="images/html-logo.webp" alt="html-logo">
+                <span>HTML</span>
+            </div>
+            <div class="cell">
+                <img src="images/css-logo.webp" alt="css-logo">
+                <span>CSS</span>
+            </div>
+            <div class="cell">
+                <img src="images/javascript-logo.webp" alt="javascript-logo">
+                <span>Javascript</span>
+            </div>
+            <div class="cell">
+                <img src="images/react-logo.webp" alt="react-logo">
+                <span>React</span>
+            </div>
+        </div>
+        </section>
+        
+
+
+        <!--Section 3: Message-->
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="project">
+                <div class="project1">
+                    <img src="images/aws-project.webp" alt="aws-project">
+                    <p><em><strong>Tools & Skills: AWS S3, Lambda, CloudWatch, IAM</strong></em></p>
+                </div>
+                <div class="project2">
+                    <img src="images/portfolio-project.webp" alt="portfolio-project">
+                    <p><em><strong>Tools & Skills: Bootstrap, JavaScript, HTML, CSS, React</strong></em></p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--Section 4: Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    <p>Feel free to reach out if you’d like to discuss opportunities, collaborations, or projects. I’m always open to connecting.</p>
+                </div>
+                
+                <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="30" rows="10"></textarea>
+
+                        <button type="submit">Send Message</button>
+                </form>
+                
+            </div>
+        </section>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
